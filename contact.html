@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>魁響</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="icon" href="images/hibiki-logo2.png">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-inner">
+                <h1 class="header-logo"><a href="index.html"><img src="images/hibki-logo-black.png" alt="header-logo"></a></h1>
+                <nav>
+                  <ul class="pc-nav">
+                      <li><a href="aboutus.html">About Us</a></li>
+                      <li><a href="schedule.html">Schedule</a></li>
+                      <li><a href="recent.html">Recent Activities</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                  <div class="sp-nav">
+                      <a class="sp-click-query"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                      <ul class="sp-query">
+                          <li><a href="aboutus.html">About Us</a></li>
+                          <li><a href="schedule.html">Schedule</a></li>
+                          <li><a href="recent.html">Recent Activities</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="top-main-img">
+                <h1 class="main-title"><span class="span">CONTACT</span></h1>
+            </div>
+            <div class="contact-container">
+              <div class="for-border"></div>
+              <form action="" method="post">
+                <p>舞台依頼等はこちらのフォームからご連絡ください。</p>
+                <div class="text-center">
+                  <input class="choice" type="radio" name="purpose" value="perfomance"><label for="performance">舞台依頼</label>
+                  <input class="choice" type="radio" name="purpose" value="other"><label for="other">その他</label>
+                </div>
+                <div>
+                  <h2>お名前/団体名</h2>
+                  <input class="maxwidth" type="text" name="yourname">
+                </div>
+                <div>
+                  <h2>メールアドレス</h2>
+                  <input class="maxwidth" type="email" name="mail">
+                </div>
+                <div>
+                  <h2>詳細等</h2>
+                  <textarea class="maxwidth" name="details" placeholder="自由にコメントを記入してください。"></textarea>
+                </div>
+                <div class="text-center"><input class="submit" type="submit" value="送信" class="button"></div>
+              </form>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/hibki-logo-black.png" alt=""></a>
+                </div>
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="">Schedule</a></li>
+                            <li><a href="">Recent Activities</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="social-networkings">
+                    <a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p>魁響 @2010-2019 All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+          $(function(){
+            $(document).ready(function(){
+              $(".sp-click-query").click(function(){
+                $(this).next().slideToggle();
+              });
+            });
+          });
+        </script>
+    </body>
+</html>

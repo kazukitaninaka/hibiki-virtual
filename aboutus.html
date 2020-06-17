@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>魁響</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="icon" href="images/hibiki-logo2.png">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-inner">
+                <h1 class="header-logo"><a href="index.html"><img src="images/hibki-logo-black.png" alt="header-logo"></a></h1>
+                <nav>
+                    <ul class="pc-nav">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="recent.html">Recent Activities</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="sp-nav">
+                        <a class="sp-click-query"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                        <ul class="sp-query">
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
+                            <li><a href="recent.html">Recent Activities</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="top-main-img">
+                <h1 class="main-title"><span class="span">ABOUT US</span></h1>
+            </div>
+            <div class="aboutus-container">
+                <div class="explanation-about-us">
+                    <div class="hibiki-image">
+                        <img src="images/hibiki-logo3.png" alt="">
+                    </div>
+                    <div class="explanation-border">
+                        <div class="for-border"></div>
+                        <p>こんにちは、魁響(さきがけひびき)です！<br>私たちは早稲田大学公認サークルで唯一の和太鼓サークルです。2010年の設立以来、「本気の自分へ、さきがけろ！」をモットーに日々活動しています。メンバーは約40名全員が、早稲田大学の学生で構成されています。早稲田祭を筆頭として、学内外を問わず年間を通じて十数近くの様々なイベントに参加しパフォーマンスを行っています。和太鼓の”響“、舞台で聞いて、見て、感じてください!</p>
+                    </div>
+                </div>
+                <div class="leaders-intro">
+                    <div class="for-border"></div>
+                    <h1 class="leaders-title">幹部紹介</h1>
+                    <div class="leaders">
+                        <div class="leader1">
+                            <div class="leader-image">
+                                <img src="images/leader1.jpg" alt="">
+                            </div>
+                            <h2>幹事長</h2>
+                            <p class="leaders-name">山田太郎</p>
+                            <h2>意気込み</h2>
+                            <p class="something-to-say">みんなを引っ張っていきます！</p>
+                        </div>
+                        <div class="leader2">
+                            <div class="leader-image">
+                                <img src="images/leader1.jpg" alt="">
+                            </div>
+                            <h2>副幹事長</h2>
+                            <p class="leaders-name">山田二郎</p>
+                            <h2>意気込み</h2>
+                            <p class="something-to-say">みんなを引っ張っていきます！</p>
+                        </div>
+                        <div class="leader3">
+                            <div class="leader-image">
+                                <img src="images/leader1.jpg" alt="">
+                            </div>
+                            <h2>会計</h2>
+                            <p class="leaders-name">佐藤花子</p>
+                            <h2>意気込み</h2>
+                            <p class="something-to-say">みんなを引っ張っていきます！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/hibki-logo-black.png" alt=""></a>
+                </div>
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="schdule.html">Schedule</a></li>
+                            <li><a href="recent.html">Recent Activities</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="social-networkings">
+                    <a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p>魁響 @2010-2019 All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+          $(function(){
+            $(document).ready(function(){
+
+              $(".sp-click-query").click(function () {
+                $(this).next().slideToggle();
+              });
+
+            });
+          });
+        </script>
+    </body>
+</html>

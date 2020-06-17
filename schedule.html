@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>魁響</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="icon" href="images/hibiki-logo2.png">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-inner">
+                <h1 class="header-logo"><a href="index.html"><img src="images/hibki-logo-black.png" alt="header-logo"></a></h1>
+                <nav>
+                  <ul class="pc-nav">
+                      <li><a href="aboutus.html">About Us</a></li>
+                      <li><a href="schedule.html">Schedule</a></li>
+                      <li><a href="recent.html">Recent Activities</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                  <div class="sp-nav">
+                      <a class="sp-click-query"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                      <ul class="sp-query">
+                          <li><a href="aboutus.html">About Us</a></li>
+                          <li><a href="schedule.html">Schedule</a></li>
+                          <li><a href="recent.html">Recent Activities</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="top-main-img">
+                <h1 class="main-title"><span class="span">SCHEDULE</span></h1>
+            </div>
+            <div class="schedule-container">
+                <div class="for-border"></div>
+                <h2 class="schedule-title">今年の舞台スケジュール</h2>
+                <table>
+                    <tr>
+                        <td class="border-right"> 4月</td>
+                        <td class="sp-no-padding">新歓パフォーマンス</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right"> 5月</td>
+                        <td class="sp-no-padding">おはら祭り@渋谷<br>Museum Live@早稲田大学早稲田キャンパス</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right"> 6月</td>
+                        <td class="sp-no-padding">パパルフェスティバル@コヤマドライビングスクール<br>早稲田大学文化芸術祭@早稲田大学小野梓記念講堂</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right"> 7月</td>
+                        <td class="sp-no-padding">早稲田大学放送研究会主催イベント</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right"> 9月</td>
+                        <td class="sp-no-padding">自主公演</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">10月</td>
+                        <td class="sp-no-padding">グローバルコーチングカンファレンス2019</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">11月</td>
+                        <td class="sp-no-padding">早稲田祭</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">12月</td>
+                        <td class="sp-no-padding">早稲田大学放送研究会主催 冬の早慶戦</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right"> 1月</td>
+                        <td class="sp-no-padding" class="sp-no-padding"></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right"> 2月</td>
+                        <td class="sp-no-padding"></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right no-padding"> 3月</td>
+                        <td class="no-padding sp-no-padding"></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/hibki-logo-black.png" alt=""></a>
+                </div>
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="">Schedule</a></li>
+                            <li><a href="">Recent Activities</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="social-networkings">
+                    <a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p>魁響 @2010-2019 All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+          $(function(){
+            $(document).ready(function(){
+
+              $(".sp-click-query").click(function () {
+                $(this).next().slideToggle();
+              });
+
+            });
+          });
+        </script>
+    </body>
+</html>
