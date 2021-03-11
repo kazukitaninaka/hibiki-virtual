@@ -6,4 +6,4 @@ https://kazukitaninaka.github.io/hibiki-virtual/index.html
 
 This is a virtual web site for my Japanese drum circle in university.
 I implemented both design and coding for the web site.
-This web site is also a smartphone friendly, in that I introduced a hamburger menu in case of small screens using jQuery.
+This web site is also a smartphone friendly, as I introduced a hamburger menu using jQuery in case of small screens.
